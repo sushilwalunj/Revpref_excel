@@ -128,6 +128,10 @@ The script will create an Excel file (.xlsx) with the name you specified. The fi
 
 Each row in the Excel file corresponds to one subject from the source CSV, in the order they appeared.
 
+## Acknowledgements
+
+Credit to **@Girono-Joestar** for their help in developing the algorithms and for their insightful feedback throughout this project. This assistance is greatly appreciated.
+
 ## **License**
 
 This project is licensed under the MIT License. See the LICENSE file for details.
