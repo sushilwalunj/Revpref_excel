@@ -28,17 +28,17 @@ This toolkit streamlines that entire workflow. It intelligently parses the sourc
 #### **For Windows:**
 
 Use the RevPref\_Tool.exe file for windows.  
-Once you extract the files, simply double click on the RevPref\_Tool.exe file.
+Once you extract the files, go to the Executable folder and simply double click on the RevPref\_Tool.exe file.
 
 #### **For MacOS:**
 
 Use the RevPref\_Tool.app file for windows.  
-Once you extract the files, simply double click on the RevPref\_Tool.exe file.
+Once you extract the files, go to the Executable folder and simply double click on the RevPref\_Tool.exe file.
 
 #### **For Linux:**
 
 Use the revpref\_tool.exe file for windows.  
-Once you extract the files, simply double click on the RevPref\_Tool.exe file.
+Once you extract the files, go to the Executable folder and simply double click on the RevPref\_Tool.exe file.
 
 If you wish to run the script using python, refer to the steps below.  
 \[**Note:** This script requires Python 3.12+ and a few common libraries.\]
@@ -161,7 +161,7 @@ The above image is from when the CSV file is opened using Notepad application (M
 
 The script is run from your terminal and will interactively prompt you for all necessary parameters.
 ###**If you decide to run the .exe file**
-Just double click the .exe file and the program will run. 
+Go to the Executable folder and just double click the appropriate executable file for your OS and the program will run. 
 ###**If you decide to run the .py file**
 1. Open your terminal (Command Prompt, PowerShell, or Terminal).  
 2. Navigate to the directory where you saved the script.  
