@@ -91,10 +91,12 @@ An experiment with **N subjects**, each making **2 choices** (observations) over
 \# ...and so on for more subjects...  
 If you want to generate a CSV file, ensure that your data is in the format similar to the image below.  
 ![alt text](https://github.com/sushilwalunj/Revpref_excel/blob/main/assets/quantity_img_exc.jpg "Excel")
+
 The above example is created using Microsoft Excel. From this image it can be inferred that there are 3 participants with 11 observations for 2 goods, hence a 11 x 2 matrix for 3 participants. Now each participant is separated by a blank unmerged row. Once the excel file is ready you can go to File \-\> Save As \-\> select your location of storage \-\> Give the save type as ‘CSV (Comma delimited)’.    
 If using Microsoft Excel you need not worry about reconverting your file to xlsx format for modifying the file, you can simply open the file and make changes.  
 However, if viewing outside of a spreadsheet application, the csv file will look like the following image.  
-![alt text]![alt text](https://github.com/sushilwalunj/Revpref_excel/blob/main/assets/quantity_img_csv.jpg "CSV")
+![alt text](https://github.com/sushilwalunj/Revpref_excel/blob/main/assets/quantity_img_csv.jpg "CSV")
+
 The above image is from when the CSV file is opened using Notepad application (Microsoft’s default notepad application). 
 
 ### **2\. Price Matrix (Command-Line Input)**
@@ -229,6 +231,7 @@ Subject    | WARP    | SARP    | GARP    | CCEI
 Results successfully saved to 'Book2\_r.xlsx'  
 Book2\_r.xlsx \[The CCEI is rounded off as 0.9999999999999 is quite close to 1\]   
 ![alt text](https://github.com/sushilwalunj/Revpref_excel/blob/main/assets/result_img_exc.jpg "Result")
+
 For manual input  
 \============================================================  
       Revealed Preference Analysis Tool (WARP, SARP, GARP, CCEI)  
