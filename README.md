@@ -90,11 +90,11 @@ An experiment with **N subjects**, each making **2 choices** (observations) over
 ,  
 \# ...and so on for more subjects...  
 If you want to generate a CSV file, ensure that your data is in the format similar to the image below.  
-![][image1]  
+![alt text](https://github.com/sushilwalunj/Revpref_excel/blob/main/assets/quantity_img_exc.jpg "Excel")
 The above example is created using Microsoft Excel. From this image it can be inferred that there are 3 participants with 11 observations for 2 goods, hence a 11 x 2 matrix for 3 participants. Now each participant is separated by a blank unmerged row. Once the excel file is ready you can go to File \-\> Save As \-\> select your location of storage \-\> Give the save type as ‘CSV (Comma delimited)’.    
 If using Microsoft Excel you need not worry about reconverting your file to xlsx format for modifying the file, you can simply open the file and make changes.  
 However, if viewing outside of a spreadsheet application, the csv file will look like the following image.  
-![][image2]  
+![alt text]![alt text](https://github.com/sushilwalunj/Revpref_excel/blob/main/assets/quantity_img_csv.jpg "CSV")
 The above image is from when the CSV file is opened using Notepad application (Microsoft’s default notepad application). 
 
 ### **2\. Price Matrix (Command-Line Input)**
@@ -158,7 +158,9 @@ The above image is from when the CSV file is opened using Notepad application (M
 ## **How to Run the Script**
 
 The script is run from your terminal and will interactively prompt you for all necessary parameters.
-
+###**If you decide to run the .exe file**
+Just double click the .exe file and the program will run. 
+###**If you decide to run the .py file**
 1. Open your terminal (Command Prompt, PowerShell, or Terminal).  
 2. Navigate to the directory where you saved the script.  
 3. Run the script using the python command:  
@@ -226,7 +228,7 @@ Subject    | WARP    | SARP    | GARP    | CCEI
 
 Results successfully saved to 'Book2\_r.xlsx'  
 Book2\_r.xlsx \[The CCEI is rounded off as 0.9999999999999 is quite close to 1\]   
-![][image3]  
+![alt text](https://github.com/sushilwalunj/Revpref_excel/blob/main/assets/result_img_exc.jpg "Result")
 For manual input  
 \============================================================  
       Revealed Preference Analysis Tool (WARP, SARP, GARP, CCEI)  
