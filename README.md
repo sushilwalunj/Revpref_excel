@@ -30,16 +30,6 @@ This toolkit streamlines that entire workflow. It intelligently parses the sourc
 Use the RevPref\_Tool.exe file for windows.  
 Once you extract the files, go to the Executable folder and simply double click on the RevPref\_Tool.exe file.
 
-#### **For MacOS:**
-
-Use the RevPref\_Tool.app file for windows.  
-Once you extract the files, go to the Executable folder and simply double click on the RevPref\_Tool.exe file.
-
-#### **For Linux:**
-
-Use the revpref\_tool.exe file for windows.  
-Once you extract the files, go to the Executable folder and simply double click on the RevPref\_Tool.exe file.
-
 If you wish to run the script using python, refer to the steps below.  
 \[**Note:** This script requires Python 3.12+ and a few common libraries.\]
 
