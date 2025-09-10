@@ -1,0 +1,58 @@
+\---
+
+title: ‘Revealed Preferences: User friendly Python Script for Revealed Preferences’
+
+tags:
+
+  **\-** Python
+
+  **\-** economics
+
+  **\-** psychology
+
+  **\-** applied mathematics
+
+  **\-** statics
+
+authors:
+
+  **\-** name: Sushil Walunj
+
+ 	orcid: 0000-0000-0000-0000
+
+	equal-contrib: true
+
+	affiliation: 1
+
+  **\-** name: Rishab Iyer
+
+	equal-contrib: true
+
+	affiliation: 2
+
+date: 2nd September 2025
+
+bibliography: paper.bib
+
+ 
+
+**\# Summary**
+
+ 
+
+Evaluating whether the observed choices of consumers conform to economic rationality is a central task in empirical microeconomics. Standard tests include the Weak Axiom of Revealed Preference (WARP) ‘\[@Samuelson:1938\]’, the Strong Axiom of Revealed Preference (SARP) ‘\[@Houthakker:1950\]’, and the Generalised Axiom of Revealed Preference (GARP) ‘\[@Afriat:1967, @ Varian:1982\]’, while Afriat’s Critical Cost Efficiency Index (CCEI) ‘\[@Afriat:1972\]’ provides a continuous measure of the degree of deviation from rational behaviour. These tools are widely used in microeconomics courses as well as in research applications across behavioural and experimental economics. To facilitate such analyses, we introduce RevPref-Tool, a Python script that efficiently tests WARP, SARP, and GARP (reporting the number of violations), computes CCEI scores, and integrates with the Python scientific stack (NumPy) to enable reproducible, batch, and programmatic analyses for researchers, experimentalists, and instructors
+
+**\# Statement of need**
+
+Analysing revealed preference data is an important task in economics, but this is often hindered by significant data processing challenges. Researchers frequently need to write time consuming and error prone custom scripts to handle the complex dataset. The manual processing of this data is a major bottleneck.
+
+RevPref-Tool directly addresses this need by providing an open source Python script that automates the entire analysis workflow. Its key in this script is the intelligent parsing of stacked data files, which automatically separates and analyses each subject's choices with minimal user input.
+
+This tool provides immediate value to two key groups, researchers and students/instructors. For researchers, it drastically reduces data preparation and processing time, eliminates a potential source of error, and improves the reproducibility of their results. For students/instructors, it offers a practical, hands-on tool to bridge the gap between the theory of revealed preference and its application in real world.
+
+ 
+
+**\# References**
+
+ 
+
