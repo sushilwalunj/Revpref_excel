@@ -26,7 +26,7 @@ This toolkit streamlines that entire workflow. It intelligently parses the sourc
   * Creates a final summary report in an Excel (.xlsx) file, with each row corresponding to a single subject's complete results.
 
 ## **Installation**
-
+All Executable files are located in the executables folder. Please select appropriate folder for your system. For example, if you have a Windows system, use the executable file from the Executables/Windows folder.
 #### **For Windows:**
 
 Use the revpreftool.exe file for windows.  
@@ -47,6 +47,7 @@ chmod \+x revpreftool
 ./revpreftool
 
 #### **For Macintosh (only for apple silicon):**
+Locate the downloaded file and run it.
 
 ## **Input Data Format (Crucial\!)**
 
