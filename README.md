@@ -1,12 +1,12 @@
 # **Revealed Preference Analysis Toolkit** 
 
-A robust Python toolkit for non-parametric analysis of consumer choice data, specifically designed for datasets from economics experiments. This script automates reading complex data files, applying revealed preference tests (GARP, SARP, WARP), calculating the Afriat Efficiency Index, validating HARP and generating a clean summary report.
+A robust Python toolkit for non-parametric analysis of consumer choice data, specifically designed for datasets from economic experiments in the domain of Revealed Preference theory. With the help of this tool, one can automate the reading of data files, apply revealed preference tests (WARP, SARP, GARP, HARP), calculate the Afriat Efficiency Index, also known as the Critical Cost Efficiency Index (CCEI), and generate a clean, summarised report for the same.
 
 ## **The Problem This Solves**
 
-Economics choice experiments often produce large, stacked CSV files where choice data from numerous subjects—each making a series of decisions—is appended one after another. Manually separating and analysing the data for each individual is tedious and error-prone.
-
-This toolkit streamlines that entire workflow. It intelligently parses the source file, automatically detects the number of subjects and goods, runs all necessary calculations, and compiles a final, publication-ready report.
+The Problem This Solves
+Economics choice experiments based on revealed preference theory often produce large, stacked CSV files where choice data from numerous subjects, with each making a series of decisions,  is appended one after another. Manually separating and analysing the data for each individual is tedious and prone to error.
+This toolkit streamlines that entire workflow. It intelligently parses the source file, automatically detects the number of subjects and goods, runs all necessary calculations, and compiles a final report.
 
 ## **Key Features**
 
@@ -14,7 +14,7 @@ This toolkit streamlines that entire workflow. It intelligently parses the sourc
   * Counts violations of the **Generalised Axiom of Revealed Preference (GARP)**.  
   * Counts violations of the **Strong Axiom of Revealed Preference (SARP)**.  
   * Counts violations of the **Weak Axiom of Revealed Preference (WARP)**.  
-  * Calculate **Afriat’s critical cost efficiency index.**  
+  * Calculate **Afriat’s critical cost efficiency index, also known as, Critical Cost Efficiency Index (CCEI).**  
   * Validates the **Houthakker's Axiom of Revealed Preference (HARP)**.  
 * **Efficiency Measurement**:  
   * The Afriat Efficiency Index (CCEI) is used to measure the severity of GARP violations, where a value of 1.0 reflects perfect consistency with rational choice and no GARP violations. Lower values indicate the extent to which budget constraints would need to be relaxed to eliminate all GARP violations. For instance, a CCEI score of 0.90 means that the observed choices are 90% consistent with GARP, and a 10% relaxation of the budget would be sufficient to remove all violations.  
@@ -32,13 +32,6 @@ All Executable files are located in the executables folder. Please select approp
 Use the revpreftool.exe file for windows.  
 Once you extract the files, simply double click on the revpreftool.exe file.
 
-If you wish to run the script using python, refer to the steps below.  
-\[**Note:** This script requires Python 3.12+ and a few common libraries.\]
-
-1. **Install Python**: If you don't have it, download Python from [python.org](https://python.org).  
-2. **Install Libraries**: Open your terminal or command prompt and install the required packages using pip.  
-   pip install numpy openpyxl
-
 #### **For Linux:**
 
 Go to the location where you have downloaded the file.  
@@ -49,6 +42,14 @@ chmod \+x revpreftool
 #### **For Macintosh (only for apple silicon):**
 Locate the downloaded file and run it.
 
+If you wish to run the script using python, refer to the steps below.  
+\[**Note:** This script requires Python 3.12+ and a few common libraries.\]
+
+1. **Install Python**: If you don't have it, download Python from [python.org](https://python.org).  
+2. **Install Libraries**: Open your terminal or command prompt and install the required packages using pip.  
+   pip install numpy openpyxl
+
+   
 ## **Input Data Format (Crucial\!)**
 
 The script requires two inputs: a **Quantity Data File** (a CSV file) and a **Price Matrix** (entered in the terminal).
